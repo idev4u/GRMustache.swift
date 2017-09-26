@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "GRMustache.swift",
+    name: "GRMustache",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
@@ -21,7 +21,6 @@ let package = Package(
 
         .target(
             name: "Mustache",
-            dependencies: [ ],
             path: "Sources"
         ),
         .testTarget(
